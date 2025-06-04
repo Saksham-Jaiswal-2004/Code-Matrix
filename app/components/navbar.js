@@ -17,7 +17,7 @@ const Navbar = () => {
     }, []);
     
     return (
-        <div className='w-full fixed top-0 text-white flex justify-between items-center px-16 py-1' id='navbar'>
+        <div className='w-full fixed top-0 text-white flex justify-between items-center px-16 py-1 z-[999]' id='navbar'>
             <div className="logo">
                 <Link href="/">
                     <img src="/images/LogoItem.png" alt="" />

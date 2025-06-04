@@ -2,32 +2,32 @@ import React from 'react'
 
 const Values = () => {
     return (
-        <div className='min-h-screen h-fit w-full flex justify-center items-center bg3 overflow-hidden'>
-            <div className='h-full w-1/2 flex flex-col gap-14 justify-start items-center'>
+        <div className='min-h-[115vh] h-fit w-full flex justify-center items-center bg3 overflow-hidden'>
+            <div className='h-fit w-1/2 flex flex-col gap-6 justify-start items-center'>
                 <h1 className='title2 w-[85%] mb-4'>Our Values</h1>
 
-                <div className='w-[85%] flex flex-wrap gap-10'>
-                    <div className='w-[46%]'>
+                <div className='w-[85%] flex flex-wrap gap-6'>
+                    <div className='w-[46%] card bg-white'>
                         <h1 className='title2'>1.</h1>
                         <h2 className='title3'>Integrity</h2>
                         <p className='mutedText'>We uphold honesty and transparency in all dealings.</p>
                     </div>
 
-                    <div className='w-[46%]'>
+                    <div className='w-[46%] card bg-white'>
                         <h1 className='title2'>2.</h1>
                         <h2 className='title3'>Safety</h2>
                         <p className='mutedText'>We adhere to strict safety standards to protect our workers and clients.</p>
                     </div>
                 </div>
 
-                <div className='w-[85%] flex flex-wrap gap-10'>
-                    <div className='w-[46%]'>
+                <div className='w-[85%] flex flex-wrap gap-6'>
+                    <div className='w-[46%] card bg-white'>
                         <h1 className='title2'>3.</h1>
                         <h2 className='title3'>Client Satisfaction</h2>
                         <p className='mutedText'>We prioritize customer needs with quality and timeliness.</p>
                     </div>
 
-                    <div className='w-[46%]'>
+                    <div className='w-[46%] card bg-white'>
                         <h1 className='title2'>4.</h1>
                         <h2 className='title3'>Innovation</h2>
                         <p className='mutedText'>We embrace technology and modern techniques to drive efficiency.</p>

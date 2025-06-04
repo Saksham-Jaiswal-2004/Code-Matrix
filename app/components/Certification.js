@@ -8,7 +8,7 @@ const Certification = () => {
             <div className='flex w-full h-fit justify-center items-center gap-8 mt-16'>
                 <div className='bg-white h-[480px] w-1/4 p-4 flex flex-col gap-3 justify-center items-center card'>
                     <div className='h-[240px] w-full flex justify-center items-center overflow-hidden'>
-                        <img src="/images/CertLogo1.jpg" alt="" className='w-[200px] h-auto saturate-0'/>
+                        <img src="/images/CertLogo1.JPG" alt="" className='w-[200px] h-auto saturate-0'/>
                     </div>
 
                     <p className='mutedText'>As a Staunchly Management System Certified company, CMTC follows robust, risk-managed, and documented workflows that promote health and safety, sustainable practices, and quality-first execution on all projects — from material supply to full-scale construction.</p>
@@ -16,7 +16,7 @@ const Certification = () => {
 
                 <div className='bg-white h-[480px] w-1/4 p-4 flex flex-col gap-3 justify-center items-center card'>
                     <div className='h-[240px] w-full flex justify-center items-center overflow-hidden'>
-                        <img src="/images/CertLogo2.jpg" alt="" className='w-[200px] h-auto saturate-0'/>
+                        <img src="/images/CertLogo2.JPG" alt="" className='w-[200px] h-auto saturate-0'/>
                     </div>
 
                     <p className='mutedText'>CMTC holds a QMS Certification accredited by EGAC (Egyptian Accreditation Council) under CAB #011804, reinforcing our compliance with internationally recognized quality frameworks and operational excellence in industrial and construction services.</p>

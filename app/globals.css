@@ -151,3 +151,7 @@ body {
   height: 190px;
   gap: 0.8em;
 }
+
+input:focus, input:active, textarea:focus, textarea:active {
+  outline: none;
+}

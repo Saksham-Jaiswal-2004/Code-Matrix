@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Code Matrix",
+  title: "Code Matrix Trading & Contracting (CMTC)",
   description: "Trading and Contracting Services",
 };
 

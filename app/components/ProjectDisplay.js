@@ -68,17 +68,16 @@ const ProjectDisplay = () => {
     return (
         <div className='min-h-screen h-fit w-full flex flex-wrap gap-8 py-16 justify-center items-start'>
             {projects.map(project => (
-            <div key={project.slug} className='w-[45%] h-[300px] bg-[#bebebe] card flex justify-center items-center rounded-xl'>
+            <div key={project.slug} className='w-[45%] h-[280px] bg-[#bebebe] card flex justify-center items-center rounded-xl'>
                 <div className='w-[35%] over'>
                     <img src="images/Construction.png" alt="" />
                 </div>
 
                 <div className='w-[65%] h-full flex flex-col gap-2 justify-start px-4'>
                     <h3 className='title3 mb-5'>{project.title}</h3>
-                    
-                    <p className='mutedText'>{project.location} | {project.category}</p>
-                    <p className='mutedText'>{project.scope}</p>
-                    <p className='mutedText2'>{project.description.length>60 ? project.description.substring(0,61)+"......": project.description}</p>
+                    <p className='mutedText2 text-sm'>{project.location} | {project.category}</p>
+                    <p className='mutedText2 text-sm'>{project.scope}</p>
+                    <p className='mutedText2 mt-3'>{project.description.length>80 ? project.description.substring(0,81)+"......": project.description}</p>
                 </div>
             </div>
             ))}

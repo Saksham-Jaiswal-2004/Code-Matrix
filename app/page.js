@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
 import Intro from "./components/Intro";
@@ -5,6 +6,8 @@ import Services from "./components/Services";
 import Benefits from "./components/Benefits";
 import Testimonials from "./components/Testimonials";
 import CTA from "./components/CTA";
+import Lottie from 'lottie-react';
+import animationData from '@/public/Animations/HomeAnimation.json';
 
 export default function Home() {
   return (
@@ -21,15 +24,20 @@ export default function Home() {
         </div>
 
         <div className="h-screen w-1/2 flex justify-center items-center">
-          <img src="/images/Hero.png" alt="" className="w-[65%] h-auto" />
+          <Lottie
+            animationData={animationData}
+            loop
+            autoplay
+            style={{ height: 450, width: 450 }}
+          />
         </div>
       </div>
 
       <Intro />
-      <Services/>
-      <Benefits/>
-      <Testimonials/>
-      <CTA/>
+      <Services />
+      <Benefits />
+      <Testimonials />
+      <CTA />
     </>
   );
 }

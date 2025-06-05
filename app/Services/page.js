@@ -1,8 +1,11 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import CTA from '../components/CTA'
 import CertStrip from '../components/CertStrip'
 import Service from '../components/Service'
+import Lottie from 'lottie-react';
+import animationData from '@/public/Animations/ServiceAnimation.json';
 
 const page = () => {
   return (
@@ -21,12 +24,19 @@ const page = () => {
           </div>
         </div>
 
-        <div className='h-full w-1/2'></div>
+        <div className='h-full w-1/2 flex justify-center items-center'>
+          {/* <Lottie
+            animationData={animationData}
+            loop
+            autoplay
+            style={{ height: 600, width: 600 }}
+          /> */}
+        </div>
       </div>
 
-      <Service/>
-      <CertStrip/>
-      <CTA/>
+      <Service />
+      <CertStrip />
+      <CTA />
     </div>
   )
 }

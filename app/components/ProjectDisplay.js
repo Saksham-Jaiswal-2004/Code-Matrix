@@ -75,8 +75,8 @@ const ProjectDisplay = () => {
 
                 <div className='w-[65%] h-full flex flex-col gap-2 justify-start px-4'>
                     <h3 className='title3 mb-5'>{project.title}</h3>
+                    
                     <p className='mutedText'>{project.location} | {project.category}</p>
-                    {/* <p className='mutedText'>Status: {project.status}</p> */}
                     <p className='mutedText'>{project.scope}</p>
                     <p className='mutedText2'>{project.description.length>60 ? project.description.substring(0,61)+"......": project.description}</p>
                 </div>
